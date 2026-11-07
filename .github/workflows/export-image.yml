@@ -17,16 +17,16 @@ jobs:
   export:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
       - run: npm i --no-save playwright && npx playwright install --with-deps chromium
       - run: node scripts/export-image.mjs "$SITE" day16.png "$DATE"
         env:
-          SITE: ${{ inputs.site_url || vars.SITE_URL }}
+          SITE: ${{ inputs.site_url || vars.SITE_URL || 'https://day16-you-were-here.s-nakashima.workers.dev' }}
           DATE: ${{ inputs.date }}
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: day16-image
           path: day16.png

@@ -6,7 +6,7 @@
 
 A map drawn by everyone who opens it. Opening the page adds one count to your country/region (as estimated by Cloudflare from your IP address), and you become one of the map's co-authors. Machines that request the page are shown as a separate layer, and AI crawlers are shown but not counted as co-authors.
 
-公開URL: https://day16-you-were-here.__SUBDOMAIN__.workers.dev/
+公開URL: <https://day16-you-were-here.s-nakashima.workers.dev/>
 
 ![screenshot](docs/screenshot.png)
 
@@ -114,12 +114,12 @@ npm run build:data
 
 ```sh
 npm i --no-save playwright && npx playwright install chromium
-node scripts/export-image.mjs https://day16-you-were-here.__SUBDOMAIN__.workers.dev docs/day16.png
+node scripts/export-image.mjs https://day16-you-were-here.s-nakashima.workers.dev docs/day16.png
 # 日付を指定する場合（その日までの累計）
-node scripts/export-image.mjs https://day16-you-were-here.__SUBDOMAIN__.workers.dev docs/day16.png 2026-11-16
+node scripts/export-image.mjs https://day16-you-were-here.s-nakashima.workers.dev docs/day16.png 2026-11-16
 ```
 
-GitHub Actions の **Export image** でも書き出せます（11月16日 09:00 JST に自動実行、手動実行も可）。画像は実行結果の Artifacts に添付されます。サイトの URL はリポジトリの変数 `SITE_URL`（**Settings** → **Secrets and variables** → **Actions** → **Variables**）か、手動実行時の入力で指定します。
+GitHub Actions の **Export image** でも書き出せます（11月16日 09:00 JST に自動実行、手動実行も可）。画像は実行結果の Artifacts に添付されます。別の URL を使う場合は、リポジトリの変数 `SITE_URL` か手動実行時の入力で指定します。
 
 投稿後も数え続けます。
 

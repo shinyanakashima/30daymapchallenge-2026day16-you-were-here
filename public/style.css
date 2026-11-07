@@ -57,7 +57,7 @@ button { font: inherit; color: inherit; }
 .youdot { fill: var(--you); pointer-events: none; }
 .youpulse { fill: none; stroke: var(--you); pointer-events: none; vector-effect: non-scaling-stroke; animation: pulse 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
 @keyframes pulse { from { transform: scale(.4); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
-.ring { fill-opacity: .12; stroke-width: 1.4; vector-effect: non-scaling-stroke; pointer-events: none; }
+.ring { fill-opacity: .15; stroke-width: 2; filter: drop-shadow(0 0 1.5px var(--bg)); vector-effect: non-scaling-stroke; pointer-events: none; }
 .ring.m { fill: var(--bot); stroke: var(--bot); }
 .ring.a { fill: var(--ai); stroke: var(--ai); stroke-dasharray: 3 2; }
 

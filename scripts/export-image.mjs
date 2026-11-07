@@ -6,7 +6,7 @@ import { createRequire } from 'node:module';
 
 const { chromium } = createRequire(import.meta.url)('playwright');
 
-const site = (process.argv[2] || process.env.SITE_URL || 'http://localhost:8787').replace(/\/$/, '');
+const site = (process.argv[2] || process.env.SITE_URL || 'https://day16-you-were-here.s-nakashima.workers.dev').replace(/\/$/, '');
 const out = process.argv[3] || `docs/day16-${new Date().toISOString().slice(0, 10)}.png`;
 const date = process.argv[4] || '';
 

@@ -285,7 +285,7 @@
   }
 
   // ---------- rings ----------
-  const ringR = (n) => 3 + Math.sqrt(n) * 3.2;
+  const ringR = (n) => 6 + Math.sqrt(n) * 3.2;
   function anchor(cc) {
     const f = byId.get(cc);
     if (!f) return null;
@@ -307,7 +307,9 @@
     sizeMarks();
   }
   function sizeMarks() {
-    root.selectAll('circle.ring').attr('r', function () { return ringR(+this.dataset.n) / k; });
+    gRingM.selectAll('circle').attr('r', function () { return ringR(+this.dataset.n) / k; });
+    // AI rings sit just outside the machine rings so both stay visible.
+    gRingA.selectAll('circle').attr('r', function () { return (ringR(+this.dataset.n) + 4) / k; });
     gYou.selectAll('.youdot').attr('r', 4 / k);
     gYou.selectAll('.youpulse').attr('r', 9 / k);
   }
@@ -534,7 +536,6 @@
       return;
     }
 
-    if (width >= 760) { $('side').classList.add('open'); $('sideToggle').setAttribute('aria-expanded', 'true'); }
     $('lBots').checked = store.get('ywh-bots') !== '0';
     $('lAi').checked = store.get('ywh-ai') !== '0';
     await hello().catch(() => {});
