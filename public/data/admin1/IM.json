@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-4.612,54.057],[-4.312,54.287],[-4.368,54.419],[-4.531,54.366],[-4.71,54.221],[-4.612,54.057]]]},"properties":{"cc":"IM","code":"IM-X01~","name":"Isle of Man","ja":"マン島"}}
+]}

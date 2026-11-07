@@ -1,0 +1,18 @@
+{
+  "name": "day16-you-were-here",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build:data": "node scripts/build-data.mjs",
+    "db:init:local": "wrangler d1 execute day16_you_were_here --local --file=schema.sql",
+    "export:image": "node scripts/export-image.mjs"
+  },
+  "devDependencies": {
+    "d3": "^7.9.2",
+    "mapshaper": "^0.7.101",
+    "topojson-client": "^3.1.0",
+    "wrangler": "^4.40.0"
+  }
+}

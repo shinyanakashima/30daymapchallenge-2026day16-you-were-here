@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-178.127,-14.313],[-178.131,-14.256],[-178.186,-14.248],[-178.157,-14.305],[-178.127,-14.313]]]},"properties":{"cc":"WF","code":"WF-SG","name":"Sigave","ja":"シガベ首長国"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-178.131,-14.256],[-178.127,-14.313],[-178.108,-14.279],[-178.131,-14.256]]]},"properties":{"cc":"WF","code":"WF-AL","name":"Alo","ja":"アロ首長国"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-176.155,-13.209],[-176.2,-13.291],[-176.183,-13.339],[-176.126,-13.264],[-176.155,-13.209]]]},"properties":{"cc":"WF","code":"WF-UV","name":"`Uvea","ja":"ウベア首長国"}}
+]}

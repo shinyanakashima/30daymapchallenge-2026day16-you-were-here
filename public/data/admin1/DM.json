@@ -1,0 +1,12 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.254,15.333],[-61.308,15.317],[-61.357,15.254],[-61.356,15.244],[-61.346,15.212],[-61.254,15.333]]]},"properties":{"cc":"DM","code":"DM-09","name":"Saint Patrick","ja":"セント・パトリック"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.269,15.51],[-61.317,15.445],[-61.335,15.405],[-61.328,15.346],[-61.308,15.317],[-61.254,15.333],[-61.269,15.51]]]},"properties":{"cc":"DM","code":"DM-03","name":"Saint David","ja":"セント・デイヴィッド郡"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.449,15.633],[-61.408,15.503],[-61.406,15.494],[-61.317,15.445],[-61.269,15.51],[-61.449,15.633]]]},"properties":{"cc":"DM","code":"DM-02","name":"Saint Andrew","ja":"セント・アンドルー"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.484,15.53],[-61.408,15.503],[-61.449,15.633],[-61.484,15.53]]]},"properties":{"cc":"DM","code":"DM-05","name":"Saint John","ja":"セント・ジョン郡"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.455,15.466],[-61.406,15.494],[-61.408,15.503],[-61.484,15.53],[-61.455,15.466]]]},"properties":{"cc":"DM","code":"DM-11","name":"Saint Peter","ja":"セント・ピーター"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.416,15.39],[-61.335,15.405],[-61.317,15.445],[-61.406,15.494],[-61.455,15.466],[-61.416,15.39]]]},"properties":{"cc":"DM","code":"DM-06","name":"Saint Joseph","ja":"セント・ジョゼフ教区"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.394,15.314],[-61.328,15.346],[-61.335,15.405],[-61.416,15.39],[-61.394,15.314]]]},"properties":{"cc":"DM","code":"DM-10","name":"Saint Paul","ja":"セント・ポール"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.373,15.26],[-61.357,15.254],[-61.308,15.317],[-61.328,15.346],[-61.394,15.314],[-61.373,15.26]]]},"properties":{"cc":"DM","code":"DM-04","name":"Saint George","ja":"セント・ジョージ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.373,15.237],[-61.356,15.244],[-61.357,15.254],[-61.373,15.26],[-61.373,15.237]]]},"properties":{"cc":"DM","code":"DM-07","name":"Saint Luke","ja":"セント・ルーク"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.346,15.212],[-61.356,15.244],[-61.373,15.237],[-61.346,15.212]]]},"properties":{"cc":"DM","code":"DM-08","name":"Saint Mark","ja":"セント・マーク"}}
+]}

@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[73.735,-53.112],[73.633,-53.044],[73.361,-53.009],[73.404,-53.139],[73.581,-53.188],[73.735,-53.112]]]},"properties":{"cc":"HM","code":"HM-X01~","name":"Heard Island and McDonald Islands","ja":"ハード島とマクドナルド諸島"}}
+]}

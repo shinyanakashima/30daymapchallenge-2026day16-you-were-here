@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>You were here. — #30DayMapChallenge Day 16</title>
+<meta name="description" content="A collaborative map drawn by everyone who opens it. #30DayMapChallenge 2026 Day 16: Collaborative map.">
+<meta property="og:title" content="You were here.">
+<meta property="og:description" content="Opening this page added you to this map. You are now one of its co-authors.">
+<meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121519" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23c2410c'/%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23c2410c' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main id="app">
+  <div id="map" aria-label="World map"></div>
+
+  <header class="panel head">
+    <h1 data-i18n="title">You were here.</h1>
+    <p class="lead" data-i18n="lead">Opening this page added you to this map. You are now one of its co-authors.</p>
+    <p id="you" class="you" hidden></p>
+  </header>
+
+  <div class="dock" id="dock">
+    <div class="dock-row">
+      <section class="panel side" id="side">
+        <button type="button" class="toggle" id="sideToggle" aria-expanded="false" data-i18n="about">About this map</button>
+        <div class="side-body" id="sideBody">
+          <div id="country" class="country" hidden>
+            <div class="country-h">
+              <h2 id="cName"></h2>
+              <button type="button" id="cBack" data-i18n="back">World</button>
+            </div>
+            <p id="cSum" class="muted"></p>
+            <ol id="cList" class="rank"></ol>
+          </div>
+          <div class="ai">
+            <h2><span class="sw a"></span><span data-i18n="aiH">AI visitors</span></h2>
+            <ol id="aiList" class="rank"></ol>
+          </div>
+          <div class="about">
+            <h2 data-i18n="howH">How it is counted</h2>
+            <p data-i18n="how1">Opening this page counts once (once a day per browser), by country and region.</p>
+            <p data-i18n="how2">The location is Cloudflare's estimate from your IP address. It can be off with a VPN or a mobile network.</p>
+            <p data-i18n="how3">No IP addresses or browser details are stored. Only the date, country, region and visitor type.</p>
+            <p data-i18n="how4">Machines are counted when they request this page and are shown as rings. AI crawlers are not counted as co-authors.</p>
+            <p class="muted"><span data-i18n="src">Map data</span>: <a href="https://www.naturalearthdata.com/" rel="noopener">Natural Earth</a> · <a href="https://30daymapchallenge.com/" rel="noopener">#30DayMapChallenge</a> 2026 Day 16 · <a href="https://github.com/shinyanakashima/30daymapchallenge-2026day16-you-were-here" rel="noopener">GitHub</a></p>
+          </div>
+        </div>
+      </section>
+      <div class="panel tools">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+        </div>
+      </div>
+    </div>
+    <section class="panel stats" aria-live="polite">
+      <dl>
+        <div><dt data-i18n="sPeople">Co-authors</dt><dd id="sPeople">–</dd></div>
+        <div><dt data-i18n="sCountries">Countries</dt><dd id="sCountries">–</dd></div>
+        <div class="m"><dt data-i18n="sBots">Machines</dt><dd id="sBots">–</dd></div>
+        <div class="a"><dt data-i18n="sAi">AI</dt><dd id="sAi">–</dd></div>
+      </dl>
+      <div class="layers">
+        <label><input type="checkbox" id="lBots"> <span class="sw m"></span><span data-i18n="lBots">Machines</span></label>
+        <label><input type="checkbox" id="lAi"> <span class="sw a"></span><span data-i18n="lAi">AI</span></label>
+      </div>
+      <p class="ainote" data-i18n="aiNote">AI doesn't count as a friend :)</p>
+      <div class="legend">
+        <span data-i18n="legend">People per country</span>
+        <div class="ramp"><i id="rampBar"></i></div>
+        <div class="ramp-l"><span>1</span><span id="rampMax">–</span></div>
+      </div>
+    </section>
+    <p class="fine" id="fine" data-i18n="fine">Counted once per visit by country/region, as estimated by Cloudflare from your IP address (VPNs and mobile networks can shift it). No IP addresses or browser details are stored. Map data: Natural Earth.</p>
+    <section class="panel time">
+      <button type="button" id="play" aria-label="Play"><svg viewBox="0 0 16 16" aria-hidden="true"><path id="playIcon" d="M4 2.5v11l9-5.5z"/></svg></button>
+      <input type="range" id="day" min="0" max="0" value="0" aria-label="Date">
+      <output id="dayLabel"></output>
+    </section>
+  </div>
+
+  <footer class="export-foot">
+    <span>#30DayMapChallenge 2026 · Day 16 · Collaborative map</span>
+    <span id="exUrl"></span>
+    <span id="exDate"></span>
+    <span>Location: Cloudflare IP geolocation (estimate) · No IP addresses stored · Map data: Natural Earth</span>
+  </footer>
+</main>
+<script src="/vendor/d3.min.js"></script>
+<script src="/vendor/topojson-client.min.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

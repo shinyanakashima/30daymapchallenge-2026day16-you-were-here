@@ -1,0 +1,7 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-140.679,-17.78],[-140.782,-17.752],[-140.785,-17.859],[-140.679,-17.78]]]},"properties":{"cc":"PF","code":"PF-X03~","name":"Tuamotu-Gambier","ja":"トゥアモトゥ・ガンビエ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-149.183,-17.731],[-149.304,-17.712],[-149.354,-17.54],[-149.604,-17.526],[-149.588,-17.731],[-149.183,-17.731]]]},"properties":{"cc":"PF","code":"PF-X01~","name":"Windward Islands","ja":"ウィンドワード諸島"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-151.479,-16.738],[-151.458,-16.903],[-151.352,-16.859],[-151.479,-16.738]]]},"properties":{"cc":"PF","code":"PF-X02~","name":"Leeward Islands","ja":"リーワード諸島"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-144.284,-27.579],[-144.348,-27.586],[-144.313,-27.64],[-144.284,-27.579]]]},"properties":{"cc":"PF","code":"PF-X04~","name":"Austral Islands","ja":"オーストラル諸島"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-138.837,-9.741],[-139.051,-9.701],[-139.157,-9.815],[-138.869,-9.792],[-138.837,-9.741]]]},"properties":{"cc":"PF","code":"PF-X05~","name":"Marquesas Islands","ja":"マルキーズ諸島"}}
+]}

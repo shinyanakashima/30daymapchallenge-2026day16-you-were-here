@@ -1,0 +1,32 @@
+name: Export image
+
+# Saves the map as a 1200x1200 PNG and attaches it to the run as an artifact.
+on:
+  schedule:
+    - cron: '0 0 16 11 *' # Nov 16, 00:00 UTC (09:00 JST)
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: 'Site URL (defaults to the SITE_URL repository variable)'
+        required: false
+      date:
+        description: 'Date to show, YYYY-MM-DD (defaults to the latest day)'
+        required: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/export-image.mjs "$SITE" day16.png "$DATE"
+        env:
+          SITE: ${{ inputs.site_url || vars.SITE_URL }}
+          DATE: ${{ inputs.date }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: day16-image
+          path: day16.png

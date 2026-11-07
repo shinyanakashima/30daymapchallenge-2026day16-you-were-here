@@ -1,0 +1,8 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.194,13.037],[-61.249,13.016],[-61.226,12.993],[-61.194,13.037]]]},"properties":{"cc":"VC","code":"VC-06","name":"Grenadines","ja":"グレナディーンズ郡"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.238,13.163],[-61.193,13.217],[-61.199,13.239],[-61.271,13.187],[-61.238,13.163]]]},"properties":{"cc":"VC","code":"VC-02","name":"Saint Andrew","ja":"セント・アンドリューズ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.136,13.198],[-61.193,13.217],[-61.238,13.163],[-61.136,13.198]]]},"properties":{"cc":"VC","code":"VC-04","name":"Saint George","ja":"セントジョージ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.171,13.38],[-61.188,13.263],[-61.199,13.239],[-61.193,13.217],[-61.136,13.198],[-61.171,13.38]]]},"properties":{"cc":"VC","code":"VC-01","name":"Charlotte","ja":"シャーロット教区"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.268,13.266],[-61.188,13.263],[-61.171,13.38],[-61.268,13.266]]]},"properties":{"cc":"VC","code":"VC-03","name":"Saint David","ja":"セント・デイヴィッド郡"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.271,13.187],[-61.199,13.239],[-61.188,13.263],[-61.268,13.266],[-61.271,13.187]]]},"properties":{"cc":"VC","code":"VC-05","name":"Saint Patrick","ja":"セント・パトリック教区"}}
+]}

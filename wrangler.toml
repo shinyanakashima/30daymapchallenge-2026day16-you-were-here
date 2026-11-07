@@ -1,0 +1,14 @@
+name = "day16-you-were-here"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/", "/index.html", "/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "day16_you_were_here"
+database_id = "6a2e0e17-789e-4e2a-a7b0-3a941acfe0b4"

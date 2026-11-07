@@ -1,0 +1,7 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[50.504,26.242],[50.552,26.194],[50.545,26.228],[50.504,26.242]]]},"properties":{"cc":"BH","code":"BH-13","name":"Al Manāmah","ja":"首都県"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[50.491,26.048],[50.524,26.129],[50.552,26.194],[50.504,26.242],[50.491,26.048]]]},"properties":{"cc":"BH","code":"BH-17","name":"Ash Shamālīyah","ja":"北部県"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[50.616,26.096],[50.524,26.129],[50.491,26.048],[50.616,26.096]]]},"properties":{"cc":"BH","code":"BH-14","name":"Al Janūbīyah","ja":"南部県"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[50.552,26.194],[50.524,26.129],[50.616,26.096],[50.552,26.194]]]},"properties":{"cc":"BH","code":"BH-16","name":"Al Wusţá","ja":"中部県"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[50.602,26.279],[50.612,26.241],[50.648,26.239],[50.655,26.277],[50.602,26.279]]]},"properties":{"cc":"BH","code":"BH-15","name":"Al Muḩarraq","ja":"ムハッラク県"}}
+]}

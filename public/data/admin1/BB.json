@@ -1,0 +1,13 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.546,13.244],[-59.581,13.21],[-59.554,13.18],[-59.54,13.183],[-59.518,13.218],[-59.546,13.244]]]},"properties":{"cc":"BB","code":"BB-06","name":"Saint Joseph","ja":"セント・ジョセフ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.569,13.29],[-59.606,13.242],[-59.601,13.216],[-59.581,13.21],[-59.546,13.244],[-59.569,13.29]]]},"properties":{"cc":"BB","code":"BB-02","name":"Saint Andrew","ja":"セント・アンドリュー"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.576,13.304],[-59.653,13.274],[-59.651,13.239],[-59.606,13.242],[-59.569,13.29],[-59.576,13.304]]]},"properties":{"cc":"BB","code":"BB-09","name":"Saint Peter","ja":"セント・ペーター"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.653,13.274],[-59.576,13.304],[-59.631,13.338],[-59.653,13.274]]]},"properties":{"cc":"BB","code":"BB-07","name":"Saint Lucy","ja":"セント・ルーシー"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.641,13.142],[-59.611,13.15],[-59.601,13.216],[-59.606,13.242],[-59.651,13.239],[-59.641,13.142]]]},"properties":{"cc":"BB","code":"BB-04","name":"Saint James","ja":"セント・ジェームズ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.6,13.084],[-59.57,13.108],[-59.587,13.161],[-59.611,13.15],[-59.641,13.142],[-59.6,13.084]]]},"properties":{"cc":"BB","code":"BB-08","name":"Saint Michael","ja":"セント・マイケル"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.476,13.086],[-59.513,13.129],[-59.57,13.108],[-59.6,13.084],[-59.476,13.086]]]},"properties":{"cc":"BB","code":"BB-01","name":"Christ Church","ja":"クライスト・チャーチ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.468,13.187],[-59.509,13.146],[-59.513,13.129],[-59.476,13.086],[-59.468,13.187]]]},"properties":{"cc":"BB","code":"BB-10","name":"Saint Philip","ja":"セント・フィリップ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.518,13.218],[-59.54,13.183],[-59.509,13.146],[-59.468,13.187],[-59.518,13.218]]]},"properties":{"cc":"BB","code":"BB-05","name":"Saint John","ja":"セント・ジョン"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.54,13.183],[-59.554,13.18],[-59.587,13.161],[-59.57,13.108],[-59.513,13.129],[-59.509,13.146],[-59.54,13.183]]]},"properties":{"cc":"BB","code":"BB-03","name":"Saint George","ja":"セント・ジョージ"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-59.581,13.21],[-59.601,13.216],[-59.611,13.15],[-59.587,13.161],[-59.554,13.18],[-59.581,13.21]]]},"properties":{"cc":"BB","code":"BB-11","name":"Saint Thomas","ja":"セント・トーマス"}}
+]}
